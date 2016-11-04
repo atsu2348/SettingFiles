@@ -32,3 +32,8 @@ SPROMPT='%{%} %BCurrenct> '\''%r'\'' [Yes, No, Abort, Edit]%{%}%b ' #補完機�
 RPROMPT='%{%}[%D %*]%{%}' #時刻表示
 
 ZSH_THEME="smt"
+
+#gcc_auto_compile_(仮)
+function gcc() {
+    /usr/bin/gcc -Wall -o $1 $1.c 
+}
