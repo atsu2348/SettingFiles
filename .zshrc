@@ -3,7 +3,7 @@ setopt auto_cd #cdコマンドを省略してディレクトリ名のみの入�
 setopt correct #コマンドミスを修正
 
 HISTFILE=~/.zsh_history #コマンド履歴ファイルの保存先
-HISTIZE=1000
+HISTSIZE=1000
 SAVEHIST=100000
 setopt share_history #コマンド履歴の共有
 
